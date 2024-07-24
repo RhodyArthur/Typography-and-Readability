@@ -58,6 +58,8 @@ p {
     margin-top: 20px;
     object-fit: cover;
     margin-bottom: 20px;
+    /* width: 100%;
+    max-width: 100%; */
 }
 article, ol {
     margin-inline: 2rem;
@@ -123,6 +125,7 @@ button {
 
 .image-card {
     margin-top: 20px;
+    padding-left: 10px;
     cursor: pointer;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -159,17 +162,12 @@ button {
     font-weight: 400;
 }
 
-/* .inputs {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-} */
 footer {
     margin-top: 30px;
     text-align: center;
 }
+
+
 /* 
 ================
 MEDIA QUERIES
@@ -183,13 +181,13 @@ MEDIA QUERIES
 
     .images {
         width: 100%;
+        padding: 10px;
     }
 
     .main-title {
         font-size: 1.2rem;
     }
    
-
     .image-container {
         flex-direction: column;
     }
